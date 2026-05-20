@@ -16,7 +16,7 @@ metadata:
   name: multi-containers
 spec:
   containers:
-    -name: nginx
-    image: nginx
-    -name: almalinux
-    image: almalinux
+    - name: nginx
+      image: nginx
+    - name: almalinux
+      image: almalinux
