@@ -7,7 +7,7 @@ spec:
     - name: nginx
       image: nginx
       env:
-        - name: project
-          value: roboshop
-        - name: course
-          value: kubernetes
+      - name: project
+        value: roboshop
+      - name: course
+        value: kubernetes
